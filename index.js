@@ -8,7 +8,7 @@ function displayTime() {
     const dayOfWeekNumber = new Date().getDay();
     const dayOfWeek = WEEK[dayOfWeekNumber] 
 
-    Time.textContent = `Current UTC Time in milliseconds: ${UTCTime}`;
-    Day.textContent = `Current Day of The Week: ${dayOfWeek}`;
+    Time.textContent = `Current UTC Time in milliseconds: ${UTCTime},`;
+    Day.textContent = `Current Day of The Week: ${dayOfWeek},`;
 }
 displayTime()
