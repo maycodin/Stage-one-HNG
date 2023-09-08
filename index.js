@@ -11,4 +11,4 @@ function displayTime() {
     Time.textContent = `Current UTC Time in milliseconds: ${UTCTime}`;
     Day.textContent = `Current Day of The Week: ${dayOfWeek}`;
 }
-displayTime()
+setInterval(displayTime, 1000);
