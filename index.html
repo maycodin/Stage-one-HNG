@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="display">
+            <img src="img.JPG" alt="slackDisplayPicture" data-testid="slackDisplayImage">
+            <div class="content">
+                <h1 class="name" data-testid="slackUserName">Maydev</h1>
+                <div>
+                    <p id="day" data-testid="currrentDayOfTheWeek"></p>
+                    <p id="time" data-testid="currentUTCTime"></p>
+                    <p id="track" data-testid="myTrack">Front End Development</p>
+                    <p id="repo" data-testid="githubURL">
+                        <a class="repo" href="">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
