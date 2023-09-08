@@ -58,7 +58,9 @@ img{
     font-size: 1.2rem;
     margin-bottom: 5px;
 }
-
+a{
+    text-decoration: none;
+}
 
 @media (max-width: 1000px) {
     .display{
